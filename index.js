@@ -1,7 +1,6 @@
 import createHtmlElement from "create-html-element";
 
 // Regex taken from S/O: https://stackoverflow.com/a/30281147
-// const regex = () => (/\B@([a-z0-9](?:-?[a-z0-9]){0,38})/gi);
 const regex = new RegExp("\\B@([a-z0-9](?:-?[a-z0-9]){0,38})", "gi");
 
 const linkify = (match, options) => {

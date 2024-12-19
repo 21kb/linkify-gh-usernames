@@ -1,6 +1,6 @@
 {
   "name": "linkify-gh-usernames",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Linkify GitHub usernames",
   "keywords": [
     "gh",
